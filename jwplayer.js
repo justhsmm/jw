@@ -355,7 +355,7 @@ window.jwplayer = function(t) {
                     var e = t % 1e3,
                         n = Math.floor((t - e) / 1e3),
                         r = t;
-                    return e >= 400 && e < 600 && (r = n + "400-" + n + "599"), "FastPlayer " + (t > 299999 && t < 4e5 ? "Warning" : "Error") + " " + t + ". For more information see https://developer.jwplayer.com/jw-player/docs/developer-guide/api/errors-reference#" + r
+                    return e >= 400 && e < 600 && (r = n + "400-" + n + "599"), "ISTREAM " + (t > 299999 && t < 4e5 ? "Warning" : "Error") + " " + t + ". For more information see https://developer.jwplayer.com/jw-player/docs/developer-guide/api/errors-reference#" + r
                 }
             }]), t
         }();
